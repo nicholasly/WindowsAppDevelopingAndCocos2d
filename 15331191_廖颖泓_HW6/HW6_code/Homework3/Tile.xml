@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tile>
+  <visual branding="name">
+    <binding template="TileSmall">
+      <image src="Assets/penguin.png" placement="background" hint-overlay="0"/>
+      <text  hint-style="caption" hint-wrap ="true">title</text>
+      <text  hint-style="captionSubtle" hint-wrap="true">description</text>
+    </binding>
+    
+    <binding template="TileMedium">
+      <image src="Assets/penguin.png" placement="background" hint-overlay="0"/>
+      <text  hint-style="caption" hint-wrap ="true">title</text>
+      <text hint-style="captionSubtle" hint-wrap="true">description</text>
+    </binding>
+
+    <binding template="TileWide">
+      <image src="Assets/penguin.png" placement="background" hint-overlay="0"/>
+      <text hint-style="Title" hint-wrap ="true">title</text>
+      <text hint-style="caption" hint-wrap="true" hint-maxLines="0">description</text>
+    </binding>
+
+    <binding template="TileLarge">
+      <image src="Assets/penguin.png" placement="background" hint-overlay="0"/>
+      <group >
+        <subgroup>
+          <text hint-style="title" hint-wrap ="true">title</text>
+        </subgroup>
+      </group>
+      <group>
+            <subgroup >
+                  <text hint-style="caption" hint-wrap="true" hint-maxLines="0" hint-align = "center">description</text>
+            </subgroup>
+       </group>
+    </binding>
+
+  </visual>
+</tile>
